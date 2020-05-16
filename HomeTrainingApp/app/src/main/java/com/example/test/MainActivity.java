@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button buttonExit = (Button) findViewById(R.id.MexitButton);
+        buttonExit.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                finish();
+            }
+        });
     }
 
 }
