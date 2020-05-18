@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Workout1Activity">
 
     <TextView
         android:id="@+id/MRankingView2"
@@ -47,7 +47,7 @@
         android:layout_marginTop="92dp"
         android:layout_marginEnd="44dp"
         android:layout_marginRight="44dp"
-        android:text="트레이닝 코스"
+        android:text="운동 분류"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
         android:layout_width="232dp"
         android:layout_height="112dp"
         android:layout_marginBottom="16dp"
-        android:text="상체"
+        android:text="종목 1"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -68,7 +68,7 @@
         android:layout_width="232dp"
         android:layout_height="112dp"
         android:layout_marginBottom="16dp"
-        android:text="하체"
+        android:text="종목 2"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -79,7 +79,7 @@
         android:layout_width="232dp"
         android:layout_height="112dp"
         android:layout_marginBottom="16dp"
-        android:text="코어"
+        android:text="종목 3"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -90,7 +90,7 @@
         android:layout_width="232dp"
         android:layout_height="112dp"
         android:layout_marginBottom="28dp"
-        android:text="전신"
+        android:text="종목 4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"

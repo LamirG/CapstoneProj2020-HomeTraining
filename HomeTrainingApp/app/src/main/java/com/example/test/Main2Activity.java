@@ -23,12 +23,43 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
+        Button button1 = (Button) findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), Workout1Activity.class);
+                intent.putExtra("menuName","상체");
+                startActivity(intent);
+            }
+        });
         Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), SensorActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Workout1Activity.class);
+                intent.putExtra("menuName","하체");
+                startActivity(intent);
+            }
+        });
+        Button button3 = (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), Workout1Activity.class);
+                intent.putExtra("menuName","코어");
+                startActivity(intent);
+            }
+        });
+        Button button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), Workout1Activity.class);
+                intent.putExtra("menuName","전신");
                 startActivity(intent);
             }
         });

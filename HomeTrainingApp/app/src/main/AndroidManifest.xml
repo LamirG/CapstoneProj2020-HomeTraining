@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".WorkoutResultActivity"></activity>
+        <activity android:name=".Workout3Activity" />
+        <activity android:name=".Workout2Activity" />
+        <activity android:name=".Workout1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +22,7 @@
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".SensorActivity" />
-        <activity android:name=".StatusActivity"/>
+        <activity android:name=".StatusActivity" />
     </application>
 
 </manifest>
