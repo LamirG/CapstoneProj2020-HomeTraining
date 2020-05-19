@@ -14,12 +14,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button) findViewById(R.id.MTrainningButton);
-        button.setOnClickListener(new View.OnClickListener(){
+        Button buttonTraining = (Button) findViewById(R.id.MTrainningButton);
+        buttonTraining.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button buttonOption = (Button) findViewById(R.id.MSettingButton);
+        buttonOption.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), SensorActivity.class);
                 startActivity(intent);
             }
         });
